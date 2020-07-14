@@ -1,6 +1,6 @@
 BIN_NAME := binlog-parser
 GOCC := env GOPATH=$(CURDIR)/_vendor:$(CURDIR) go
-SRC_DIR := zalora/binlog-parser/...
+SRC_DIR := github.com/xiazemin/binlog-parser/...
 
 TEST_DB_NAME := test_db
 TEST_DB_SCHEMA_FILE := data/fixtures/test_db.sql

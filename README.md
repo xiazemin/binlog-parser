@@ -1,6 +1,6 @@
 # binlog-parser
 
-[![Build Status](https://travis-ci.org/zalora/binlog-parser.svg?branch=master)](https://travis-ci.org/zalora/binlog-parser)
+[![Build Status](https://travis-ci.org/github.com/xiazemin/binlog-parser.svg?branch=master)](https://travis-ci.org/github.com/xiazemin/binlog-parser)
 
 A tool for parsing a MySQL binlog file to JSON. Reads a binlog input file, queries a database for field names, writes JSON to stdout. The output looks like this:
 
@@ -28,7 +28,7 @@ A tool for parsing a MySQL binlog file to JSON. Reads a binlog input file, queri
 
 Requires Go version 1.7 or higher.
 
-    $ git clone https://github.com/zalora/binlog-parser.git
+    $ git clone https://github.com/github.com/xiazemin/binlog-parser.git
     $ cd binlog-parser
     $ git submodule update --init
     $ make
